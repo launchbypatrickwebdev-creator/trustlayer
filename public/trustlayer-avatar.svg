@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-label="TrustLayer">
+  <rect width="1024" height="1024" fill="#05070A"/>
+  <text x="512" y="580" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="360" font-weight="900" fill="#FFFFFF" letter-spacing="-12">TL</text>
+  <rect x="372" y="700" width="280" height="14" rx="7" fill="#10B981"/>
+</svg>
