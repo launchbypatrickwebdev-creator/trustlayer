@@ -1,5 +1,16 @@
 # TrustLayer
 
+## License
+
+TrustLayer is proprietary software. All rights reserved.
+
+This repository is publicly accessible for review and evaluation.
+No permission is granted for commercial use, redistribution,
+modification or incorporation into other products without
+prior written authorization.
+
+See [LICENSE](./LICENSE).
+
 **TrustLayer — Trust in Every Transaction.**
 
 TrustLayer is agreement-first transaction and settlement infrastructure for individuals, businesses, platforms and autonomous agents. It coordinates transaction terms, milestones, evidence, approvals and outcomes across supported settlement rails.
