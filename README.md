@@ -57,7 +57,7 @@ Existing TrustLayer environment variables remain unchanged. For the NEAR foundat
 
 TrustLayer includes an authenticated agent transaction workspace at `/agents`. It provides registered buyer/seller agent identities, owner-controlled spending policies, policy-gated proposals, immutable agreement snapshots, human approvals, seller evidence, buyer delivery acceptance, participant disputes and an append-only event history.
 
-Before using this feature, apply `supabase/migrations/202611130001_agent_settlement_engine.sql`. The workflow is a persistent TrustLayer control plane; it does not itself move funds. NEAR Intents, Solana escrow/Ax and future regulated fiat providers remain separate execution adapters. Live NEAR execution is disabled until owner signing, agent grants, verified operation tracking and recovery controls are implemented.
+The workflow is a persistent TrustLayer control plane; it does not itself move funds. NEAR Intents, Solana escrow/Ax and future regulated fiat providers remain separate execution adapters. Live NEAR execution is disabled until owner signing, agent grants, verified operation tracking and recovery controls are implemented.
 
 See `docs/near-intents/IMPLEMENTATION_PLAN.md` for the data model, API routes, migration instructions, security boundaries and remaining integration work.
 
