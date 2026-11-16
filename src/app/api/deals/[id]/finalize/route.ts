@@ -1,3 +1,0 @@
-import { NextResponse } from "next/server";
-import { finalizeDealAgreement } from "@/lib/domain/deals";
-export async function POST(request:Request,{params}:{params:Promise<{id:string}>}){const origin=request.headers.get("origin");if(origin&&origin!==new URL(request.url).origin)return NextResponse.json({error:"Invalid request origin."},{status:403});try{const {id}=await params;const deal=await finalizeDealAgreement(id);return NextResponse.json({ok:true,deal});}catch(e){const message=e instanceof Error?e.message:"Unable to finalize agreement.";return NextResponse.json({error:message},{status:message==="Authentication required."?401:400});}}
